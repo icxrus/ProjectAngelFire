@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3dbe2cc14a576c84ea9ad2ee0a9c8f9e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 244075
+  packageName: EDEN - Erosion Tools - Procedural Terrain - Erosion
+  packageVersion: 1.1
+  assetPath: Assets/EDEN_ErosionTools/Scripts/GPU/EDEN_ErosionTools.cs
+  uploadId: 623778

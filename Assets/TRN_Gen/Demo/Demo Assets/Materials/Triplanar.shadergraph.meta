@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: af86c1d5177d54844987c32bd2549a21
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245751
+  packageName: EDEN - Terrain Populator
+  packageVersion: 1.0
+  assetPath: Assets/TRN_Gen/Demo/Demo Assets/Materials/Triplanar.shadergraph
+  uploadId: 568678

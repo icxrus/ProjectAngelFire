@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 78175d0569dc27c47bfe8be7ffa16d9d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176107
+  packageName: 'DevTex: Prototyping Textures'
+  packageVersion: 1.0
+  assetPath: Assets/DevTex/Materials/Dev_trigger_small_look.mat
+  uploadId: 469896

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bca88987d76d08542ab1f559c6056b15
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245751
+  packageName: EDEN - Terrain Populator
+  packageVersion: 1.0
+  assetPath: Assets/EDEN_Populator/Prefabs/Bush.prefab
+  uploadId: 568678

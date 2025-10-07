@@ -1,0 +1,42 @@
+
+==-------------------------= Setup =-------------------------==
+
+- From the Package Manager, import the "Mathematics Package".
+- On your terrain, add the component "EDEN_Terrain_Populator".
+- Set the "Detail Scatter Mode" on your terrain to "Instance Count Mode".
+
+Prefabs:
+
+ - Click "+" to add a new prefab.
+
+ Parameters: 
+  - Prefab: The prefab you want to spawn on the terrain.
+  - Spacing: How far apart each prefab of that type should be placed.
+  - Min Steepness: Minimum steepness the prefab should spawn on.
+  - Max Steepness: Maximum steepness the prefab should spawn on.
+  - Size Range: Minimum and Maximum size of the prefab.
+  - Height Range: Minimum and Maximum height that the prefab should spawn at.
+
+
+Details:
+
+ - Click "+" to add a new detail.
+
+ Parameters: 
+  - Texture: The texture you want to spawn on the terrain.
+  - Spacing: How far apart each texture of that type should be placed.
+  - Min Steepness: Minimum steepness the texture should spawn on.
+  - Max Steepness: Maximum steepness the texture should spawn on.
+  - Random Offset: How much randomness should be applied to the textures.
+  - Instance Count Per Patch: How much many texture instances should be placed per patch.
+  - Spawn Chance: The percentage chance that a texture will spawn at any position.
+  - Size Range: Minimum and Maximum size of the texture.
+  - Height Range: Minimum and Maximum height that the texture should spawn at.
+
+==-------------------------=---------------------=-------------------------==
+
+Please consider leaving a review for my asset as it really helps :)
+For any questions, or to show me what you have made with my asset, 
+please email me at wgappster@gmail.com
+
+==-------------------------=---------------------=-------------------------==

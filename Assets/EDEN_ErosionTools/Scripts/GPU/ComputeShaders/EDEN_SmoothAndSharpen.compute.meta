@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 31c4b9e035f948e49bf4d78f49ea872d
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 244075
+  packageName: EDEN - Erosion Tools - Procedural Terrain - Erosion
+  packageVersion: 1.1
+  assetPath: Assets/EDEN_ErosionTools/Scripts/GPU/ComputeShaders/EDEN_SmoothAndSharpen.compute
+  uploadId: 623778

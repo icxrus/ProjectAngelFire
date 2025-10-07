@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 50733d830df5b1b4c9ca58864a040c72
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 244075
+  packageName: EDEN - Erosion Tools - Procedural Terrain - Erosion
+  packageVersion: 1.1
+  assetPath: Assets/EDEN_ErosionTools/EDEN_Documentation.txt
+  uploadId: 623778

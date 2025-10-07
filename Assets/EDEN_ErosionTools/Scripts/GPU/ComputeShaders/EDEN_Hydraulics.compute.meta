@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 10414e31ef4528d4dae6ae6706d296eb
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 244075
+  packageName: EDEN - Erosion Tools - Procedural Terrain - Erosion
+  packageVersion: 1.1
+  assetPath: Assets/EDEN_ErosionTools/Scripts/GPU/ComputeShaders/EDEN_Hydraulics.compute
+  uploadId: 623778

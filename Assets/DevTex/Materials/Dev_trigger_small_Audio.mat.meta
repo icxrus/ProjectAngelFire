@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 48a9dce5ee727f449b768b1333bf5b5f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176107
+  packageName: 'DevTex: Prototyping Textures'
+  packageVersion: 1.0
+  assetPath: Assets/DevTex/Materials/Dev_trigger_small_Audio.mat
+  uploadId: 469896

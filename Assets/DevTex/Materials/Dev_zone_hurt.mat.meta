@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f313821a38b213346878626c5f7fdb51
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176107
+  packageName: 'DevTex: Prototyping Textures'
+  packageVersion: 1.0
+  assetPath: Assets/DevTex/Materials/Dev_zone_hurt.mat
+  uploadId: 469896

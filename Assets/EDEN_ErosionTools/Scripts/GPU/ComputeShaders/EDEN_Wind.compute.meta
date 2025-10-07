@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2c22a7d82433e6e468b53d8ee8923a11
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 244075
+  packageName: EDEN - Erosion Tools - Procedural Terrain - Erosion
+  packageVersion: 1.1
+  assetPath: Assets/EDEN_ErosionTools/Scripts/GPU/ComputeShaders/EDEN_Wind.compute
+  uploadId: 623778

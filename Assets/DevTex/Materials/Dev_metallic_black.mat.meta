@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ae497869dfdc1084f826de4aeacb8e85
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176107
+  packageName: 'DevTex: Prototyping Textures'
+  packageVersion: 1.0
+  assetPath: Assets/DevTex/Materials/Dev_metallic_black.mat
+  uploadId: 469896

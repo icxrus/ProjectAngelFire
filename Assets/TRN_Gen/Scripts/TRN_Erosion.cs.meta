@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 07415f582cfdbb543b4e851b2d4da401
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195811
+  packageName: XGen - Procedural Terrain Generator
+  packageVersion: 2.0
+  assetPath: Assets/TRN_Gen/Scripts/TRN_Erosion.cs
+  uploadId: 463865

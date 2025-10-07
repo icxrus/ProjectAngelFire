@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4a845a9e2b872374aa2d6df8735b4112
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176107
+  packageName: 'DevTex: Prototyping Textures'
+  packageVersion: 1.0
+  assetPath: Assets/DevTex/Materials/Dev_reflective_70.mat
+  uploadId: 469896

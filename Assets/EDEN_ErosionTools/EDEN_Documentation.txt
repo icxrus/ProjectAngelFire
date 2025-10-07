@@ -1,0 +1,13 @@
+
+==-------------------------= Setup =-------------------------==
+
+- Add the component "EDEN Erosion Tools" onto your terrain object.
+- Assign the correct compute shaders in the properties. (should be self explanatory, but you can double check it matches the demo scene).
+
+==-------------------------=---------------------=-----------==
+
+Please consider leaving a review for my asset as it really helps :)
+For any questions, or to show off what you have made with my asset, 
+please email me at wgappster@gmail.com
+
+==-------------------------=---------------------=-----------==

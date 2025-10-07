@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 20cf1e9c844f7344fb41471e99940eef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195811
+  packageName: XGen - Procedural Terrain Generator
+  packageVersion: 2.0
+  assetPath: Assets/TRN_Gen/Scripts/Editor/TRN_Editor.cs
+  uploadId: 463865

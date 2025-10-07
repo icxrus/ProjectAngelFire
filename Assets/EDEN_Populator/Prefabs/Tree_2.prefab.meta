@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2f6d1c98c3d3df34b84e956fdacc18d2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245751
+  packageName: EDEN - Terrain Populator
+  packageVersion: 1.0
+  assetPath: Assets/EDEN_Populator/Prefabs/Tree_2.prefab
+  uploadId: 568678

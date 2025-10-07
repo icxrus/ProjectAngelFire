@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 352f0da24cc7615419e71eefe71a22a3
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245751
+  packageName: EDEN - Terrain Populator
+  packageVersion: 1.0
+  assetPath: Assets/EDEN_Populator/EDEN_DOCUMENTATION.txt
+  uploadId: 568678

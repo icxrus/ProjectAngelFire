@@ -75,6 +75,130 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-705807564235693206
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 483e663ff1823804c8ff0da8d87b7e87, type: 3}
+  m_Name: PhysicallyBasedSky
+  m_EditorClassIdentifier: PBSkyURP::PhysicallyBasedSky
+  active: 1
+  type:
+    m_OverrideState: 1
+    m_Value: 0
+  atmosphericScattering:
+    m_OverrideState: 1
+    m_Value: 1
+  airDensityR:
+    m_OverrideState: 1
+    m_Value: 0.04534
+  airDensityG:
+    m_OverrideState: 1
+    m_Value: 0.10237241
+  airDensityB:
+    m_OverrideState: 1
+    m_Value: 0.23264056
+  airTint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  airMaximumAltitude:
+    m_OverrideState: 1
+    m_Value: 55261.973
+  aerosolDensity:
+    m_OverrideState: 1
+    m_Value: 0.01192826
+  aerosolTint:
+    m_OverrideState: 1
+    m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+  aerosolMaximumAltitude:
+    m_OverrideState: 1
+    m_Value: 8289.296
+  aerosolAnisotropy:
+    m_OverrideState: 1
+    m_Value: 0.8
+  ozoneDensityDimmer:
+    m_OverrideState: 1
+    m_Value: 1
+  ozoneMinimumAltitude:
+    m_OverrideState: 1
+    m_Value: 20000
+  ozoneLayerWidth:
+    m_OverrideState: 1
+    m_Value: 20000
+  groundTint:
+    m_OverrideState: 1
+    m_Value: {r: 0.12, g: 0.1, b: 0.09, a: 1}
+  groundColorTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  groundEmissionTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  groundEmissionMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  planetRotation:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  spaceEmissionTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  spaceEmissionMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  spaceRotation:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  colorSaturation:
+    m_OverrideState: 1
+    m_Value: 1
+  alphaSaturation:
+    m_OverrideState: 1
+    m_Value: 1
+  alphaMultiplier:
+    m_OverrideState: 1
+    m_Value: 1
+  horizonTint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  zenithTint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  horizonZenithShift:
+    m_OverrideState: 1
+    m_Value: 0
+  skyIntensityMode:
+    m_OverrideState: 1
+    m_Value: 0
+  exposure:
+    m_OverrideState: 1
+    m_Value: 0
+  multiplier:
+    m_OverrideState: 1
+    m_Value: 1
+  upperHemisphereLuxValue:
+    m_OverrideState: 1
+    m_Value: 1
+  upperHemisphereLuxColor:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0, z: 0}
+  desiredLuxValue:
+    m_OverrideState: 1
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 1
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 1
+    m_Value: 0
+  includeSunInBaking:
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,6 +216,9 @@ MonoBehaviour:
   - {fileID: -7893295128165547882}
   - {fileID: 7391319092446245454}
   - {fileID: -3357603926938260329}
+  - {fileID: 8381919856009112731}
+  - {fileID: -705807564235693206}
+  - {fileID: 8290728361618405497}
 --- !u!114 &849379129802519247
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -107,7 +234,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 2
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2
@@ -132,6 +259,58 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 1
     m_Value: 647
+--- !u!114 &6882233279151544502
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdaaa7489cdb84f4b9389e3a3e61a780, type: 3}
+  m_Name: SkyAndClouds
+  m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.Rendering.Universal.SkyAndClouds
+  active: 1
+  enabled:
+    m_OverrideState: 1
+    m_Value: 1
+  compositing:
+    m_OverrideState: 1
+    m_Value:
+      renderScale: 0.4
+      blurRadius: 0.0025
+      blurStrength: 0.01
+      blurIterations: 1
+      alphaStep: 0
+      alphaSoftness: 0.35
+      cloudBrightness: 0.3
+      skyBrightness: 0.2
+  clouds:
+    m_OverrideState: 1
+    m_Value:
+      quality: 2
+      steps: 30
+      stepSize: 80
+      cloudLayerLow: 1
+      cloudLayerHigh: 4
+      cloudShadows: 0
+      cloudDataLow: {fileID: 0}
+      cloudDataHigh: {fileID: 0}
+  sky:
+    m_OverrideState: 1
+    m_Value:
+      sunSize: 0.1
+      sunIntensity: 1000
+      starIntensity: 5
+      lightWavelengths: {x: 680, y: 550, z: 440}
+      densityPower: 8
+      DayScattering: 1
+      EveningScattering: 8
+      dayColor: {r: 1, g: 1, b: 1, a: 1}
+      eveningColor: {r: 1, g: 0.509, b: 0.509, a: 1}
+      saturation: 1.5
+      eveningThreshold: 3
 --- !u!114 &7391319092446245454
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -157,3 +336,171 @@ MonoBehaviour:
   clamp:
     m_OverrideState: 0
     m_Value: 0.05
+--- !u!114 &8290728361618405497
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be582cd2053a69e4da9d74f077d74bb8, type: 3}
+  m_Name: Fog
+  m_EditorClassIdentifier: PBSkyURP::Fog
+  active: 1
+  enabled:
+    m_OverrideState: 1
+    m_Value: 1
+  colorMode:
+    m_OverrideState: 1
+    m_Value: 1
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+  maxFogDistance:
+    m_OverrideState: 1
+    m_Value: 5000
+  mipFogMaxMip:
+    m_OverrideState: 1
+    m_Value: 0.5
+  mipFogNear:
+    m_OverrideState: 1
+    m_Value: 0
+  mipFogFar:
+    m_OverrideState: 1
+    m_Value: 1000
+  underWater:
+    m_OverrideState: 1
+    m_Value: 0
+  waterHeight:
+    m_OverrideState: 1
+    m_Value: 1
+  baseHeight:
+    m_OverrideState: 1
+    m_Value: 0
+  maximumHeight:
+    m_OverrideState: 1
+    m_Value: 50
+  meanFreePath:
+    m_OverrideState: 1
+    m_Value: 400
+--- !u!114 &8352339985556328027
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8752436c1c6e30f4da82236df21c18e3, type: 3}
+  m_Name: Fog
+  m_EditorClassIdentifier: Assembly-CSharp::UnityEngine.Rendering.Universal.Fog
+  active: 1
+  <displayName>k__BackingField: 
+  enabled:
+    <fieldHash>k__BackingField: -1001537264
+    m_OverrideState: 1
+    m_Value: 1
+  quality:
+    <fieldHash>k__BackingField: -1947894936
+    m_OverrideState: 1
+    m_Value: 2
+  alphaMultiplier:
+    <fieldHash>k__BackingField: -1708544544
+    m_OverrideState: 1
+    m_Value: 0.5
+  additionalLightsIntensityMultiplier:
+    <fieldHash>k__BackingField: -1469194152
+    m_OverrideState: 1
+    m_Value: 1
+  jitter:
+    <fieldHash>k__BackingField: -751142976
+    m_OverrideState: 1
+    m_Value: 0.15
+  downsample:
+    <fieldHash>k__BackingField: -511792584
+    m_OverrideState: 1
+    m_Value: 2
+  steps:
+    <fieldHash>k__BackingField: 206258592
+    m_OverrideState: 1
+    m_Value: 125
+  stepSize:
+    <fieldHash>k__BackingField: 684959376
+    m_OverrideState: 1
+    m_Value: 0.2
+  density:
+    <fieldHash>k__BackingField: 924309768
+    m_OverrideState: 1
+    m_Value: 0.045
+  minDensity:
+    <fieldHash>k__BackingField: 1163660160
+    m_OverrideState: 1
+    m_Value: 0
+  fogColor:
+    <fieldHash>k__BackingField: 1642360944
+    m_OverrideState: 1
+    m_Value:
+      r: 1
+      g: 1
+      b: 1
+      a: 1
+  brightness:
+    <fieldHash>k__BackingField: 1655700704
+    m_OverrideState: 1
+    m_Value: 3
+  anisotropy:
+    <fieldHash>k__BackingField: -1681865024
+    m_OverrideState: 1
+    m_Value: 0.8
+  blurRadius:
+    <fieldHash>k__BackingField: -711123696
+    m_OverrideState: 1
+    m_Value: 0.01
+  blurStrength:
+    <fieldHash>k__BackingField: 363274560
+    m_OverrideState: 1
+    m_Value: 0.5
+  blurIterations:
+    <fieldHash>k__BackingField: 602624952
+    m_OverrideState: 1
+    m_Value: 2
+--- !u!114 &8381919856009112731
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d105cb760a24ff4bb844219d76b8ee7, type: 3}
+  m_Name: VisualEnvironment
+  m_EditorClassIdentifier: PBSkyURP::VisualEnvironment
+  active: 1
+  skyType:
+    m_OverrideState: 1
+    m_Value: 4
+  skyAmbientMode:
+    m_OverrideState: 1
+    m_Value: 1
+  planetRadius:
+    m_OverrideState: 1
+    m_Value: 6378.1
+  renderingSpace:
+    m_OverrideState: 1
+    m_Value: 1
+  centerMode:
+    m_OverrideState: 1
+    m_Value: 0
+  planetCenter:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: -6378.1, z: 0}
+  customSkyMaterial:
+    m_OverrideState: 1
+    m_Value: {fileID: 0}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 7bed3a96004f0fa44865c3c863903e73
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245751
+  packageName: EDEN - Terrain Populator
+  packageVersion: 1.0
+  assetPath: Assets/TRN_Gen/Scripts/Editor/EDEN_Populator_Editor.cs
+  uploadId: 568678

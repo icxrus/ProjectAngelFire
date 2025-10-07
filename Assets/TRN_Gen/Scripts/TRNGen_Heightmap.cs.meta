@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3f32e8bb8a161d94e93d6d75b0fa0ff5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195811
+  packageName: XGen - Procedural Terrain Generator
+  packageVersion: 2.0
+  assetPath: Assets/TRN_Gen/Scripts/TRNGen_Heightmap.cs
+  uploadId: 463865

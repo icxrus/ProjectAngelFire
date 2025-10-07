@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d6cbb9d7d974ade448bd811a9cec399d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 176107
+  packageName: 'DevTex: Prototyping Textures'
+  packageVersion: 1.0
+  assetPath: Assets/DevTex/Materials/Dev_matte_grey75.mat
+  uploadId: 469896

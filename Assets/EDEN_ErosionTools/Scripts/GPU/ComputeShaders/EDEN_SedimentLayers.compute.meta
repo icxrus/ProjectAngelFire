@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d7635caf1061fb540a370c6eae540614
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 244075
+  packageName: EDEN - Erosion Tools - Procedural Terrain - Erosion
+  packageVersion: 1.1
+  assetPath: Assets/EDEN_ErosionTools/Scripts/GPU/ComputeShaders/EDEN_SedimentLayers.compute
+  uploadId: 623778
