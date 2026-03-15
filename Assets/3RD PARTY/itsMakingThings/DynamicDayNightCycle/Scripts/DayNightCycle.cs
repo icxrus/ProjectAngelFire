@@ -170,11 +170,11 @@ namespace itsmakingthings_daynightcycle
                 float moonIntensity = 0f;
 
                 if (_timeOfDay >= 17f && _timeOfDay < 18f)
-                    moonIntensity = Mathf.InverseLerp(17f, 18f, _timeOfDay);
+                    moonIntensity = 1f + Mathf.InverseLerp(17f, 18f, _timeOfDay);
                 else if (_timeOfDay >= 18f || _timeOfDay < 5.5f)
-                    moonIntensity = 1f;
+                    moonIntensity = 2.5f;
                 else if (_timeOfDay >= 5.5f && _timeOfDay < 6.5f)
-                    moonIntensity = 1f - Mathf.InverseLerp(5.5f, 6.5f, _timeOfDay);
+                    moonIntensity = 2f - Mathf.InverseLerp(5.5f, 6.5f, _timeOfDay);
 
                 moonLight.intensity = moonIntensity * 0.3f;
                 moonLight.color = new Color(0.7f, 0.8f, 1f);
@@ -241,12 +241,16 @@ namespace itsmakingthings_daynightcycle
                 if (_timeOfDay >= 17.83f || _timeOfDay < 6.1f)
                 {
                     // Nighttime → use moon as sun source
+                    moonLight.enabled = true; // Ensure moon light is enabled during night
                     RenderSettings.sun = moonLight;
+                    sunLight.enabled = false; // Disable sun light during night
                 }
                 else
                 {
                     // Daytime → use actual sun
+                    sunLight.enabled = true; // Ensure sun light is enabled during day
                     RenderSettings.sun = sunLight;
+                    moonLight.enabled = false; // Disable moon light during day
                 }
             }
         }
