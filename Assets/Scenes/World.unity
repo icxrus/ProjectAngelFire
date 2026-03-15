@@ -5617,36 +5617,56 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 512160073}
     - target: {fileID: 5229841209238154171, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
+      propertyPath: Orbits.Top.Height
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229841209238154171, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
+      propertyPath: Orbits.Top.Radius
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229841209238154171, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: HorizontalAxis.Value
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5229841209238154171, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
+      propertyPath: Orbits.Bottom.Height
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229841209238154171, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
+      propertyPath: Orbits.Bottom.Radius
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5229841209238154171, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
+      propertyPath: Orbits.Center.Height
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6207229782017317632, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3206.6013
+      value: 3206.6116
       objectReference: {fileID: 0}
     - target: {fileID: 6207229782017317632, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 38.085236
+      value: 37.585236
       objectReference: {fileID: 0}
     - target: {fileID: 6207229782017317632, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1477.4819
+      value: 1477.2322
       objectReference: {fileID: 0}
     - target: {fileID: 6207229782017317632, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.88679254
+      value: 0.92368394
       objectReference: {fileID: 0}
     - target: {fileID: 6207229782017317632, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.46171227
+      value: 0.3826059
       objectReference: {fileID: 0}
     - target: {fileID: 6207229782017317632, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.018193748
+      value: -0.018950934
       objectReference: {fileID: 0}
     - target: {fileID: 6207229782017317632, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.009472651
+      value: 0.007849807
       objectReference: {fileID: 0}
     - target: {fileID: 6207229782017317632, guid: 18419d13dc6c8014c866cf52c73f0f78, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10819,6 +10839,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ca34a6148db2d54493f84f379293f33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TerrainTools::TerrainGroup
+  GroupID: 0
 --- !u!4 &1559868016
 Transform:
   m_ObjectHideFlags: 0
@@ -13267,8 +13288,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001119762}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.46171227, y: -0.01819375, z: 0.0094726505, w: 0.8867926}
-  m_LocalPosition: {x: 3206.6013, y: 38.085236, z: 1477.4819}
+  m_LocalRotation: {x: 0.38260597, y: -0.018950935, z: 0.007849806, w: 0.92368394}
+  m_LocalPosition: {x: 3206.6116, y: 37.585236, z: 1477.2322}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
