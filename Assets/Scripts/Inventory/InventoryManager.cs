@@ -10,7 +10,7 @@ public class InventoryManager : MonoBehaviour, ISaveable
 
     public string SaveID => "inventory";
 
-    public bool AddItemToInventory(ItemClass item, int quantity)
+    public bool AddItemToInventory(Item item, int quantity)
     {
         int remainingQuantity = quantity;
 
@@ -68,7 +68,7 @@ public class InventoryManager : MonoBehaviour, ISaveable
         return true;
     }
 
-    public bool RemoveItemFromInventory(ItemClass item, int quantity)
+    public bool RemoveItemFromInventory(Item item, int quantity)
     {
         //Calculate the total amount of this item currently in inventory
         int totalAvailable = 0;

@@ -1,7 +1,9 @@
+using System;
+using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-public abstract class ItemClass : ScriptableObject
+public abstract class Item : ScriptableObject
 {
     //Base data for all items, such as ID, name, and icon. This is the base class for all items in the inventory system.
     [Header("Base Item Data")]
@@ -29,14 +31,19 @@ public abstract class ItemClass : ScriptableObject
         Legendary 
     }
 
-    public abstract ItemClass GetItem();
+    public abstract Item GetItem();
 
 #if UNITY_EDITOR
+    public static string RemoveSpecialCharacters(string str)
+    {
+        return Regex.Replace(str, "[^a-zA-Z0-9_.]+", "", RegexOptions.Compiled);
+    }
+
     private void OnValidate()
     {
         if (lockItem && string.IsNullOrEmpty(itemID) && !string.IsNullOrEmpty(itemName))
         {
-            itemID = $"{itemName}_{System.Guid.NewGuid()}";
+            itemID = $"{RemoveSpecialCharacters(itemName).ToLower()}_{System.Guid.NewGuid()}";
         }
 
         //Reset itemID if lock is removed to prevent confusion and ensure unique IDs are not reused. WILL BREAK EXISTING REFERENCES IF UNLOCKED, USE WITH CAUTION.
