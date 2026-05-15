@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5fe312122792814eac8523f6e08ead7, type: 3}
   m_Name: Pickaxe
   m_EditorClassIdentifier: Assembly-CSharp::Tool
-  itemID: 
-  itemName: 
-  description: 
-  itemIcon: {fileID: 0}
-  value: 0
-  rarity: 0
-  isStackable: 1
-  maxStackSize: 16
-  lockItem: 0
+  itemID: Pickaxe_91022d9d-96c8-486f-b9eb-964470ddbd28
+  itemName: Pickaxe
+  description: Used to break down rocks.
+  itemIcon: {fileID: 10915, guid: 0000000000000000f000000000000000, type: 0}
+  value: 50
+  rarity: 1
+  isStackable: 0
+  maxStackSize: 1
+  lockItem: 1
   toolType: 0

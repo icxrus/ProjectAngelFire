@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ccf5c8d7f02114982b71b349189d83, type: 3}
   m_Name: Sword
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  itemID: 
-  itemName: 
-  description: 
-  itemIcon: {fileID: 0}
-  value: 0
-  rarity: 0
-  isStackable: 1
-  maxStackSize: 16
-  lockItem: 0
+  itemID: swordofsteel_2a80268d-db51-4cd3-a933-43ffaae16b4a
+  itemName: Sword of Steel
+  description: Made from Steel.
+  itemIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  value: 100
+  rarity: 1
+  isStackable: 0
+  maxStackSize: 1
+  lockItem: 1
   weaponType: 0

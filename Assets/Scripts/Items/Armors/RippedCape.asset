@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4894b48e92173344ba8d1b6fcd549577, type: 3}
   m_Name: RippedCape
   m_EditorClassIdentifier: Assembly-CSharp::Armor
-  itemID: 
-  itemName: 
-  description: 
-  itemIcon: {fileID: 0}
-  value: 0
+  itemID: rippedoldcape_5df9cefc-f4f8-4173-b6ba-62bfff1cba78
+  itemName: Ripped Old Cape
+  description: While ripped, it still does the job.
+  itemIcon: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  value: 200
   rarity: 0
-  isStackable: 1
-  maxStackSize: 16
-  lockItem: 0
-  armorType: 0
+  isStackable: 0
+  maxStackSize: 1
+  lockItem: 1
+  armorType: 1

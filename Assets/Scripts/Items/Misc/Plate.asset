@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cedcb8fde3dc8c44fb1629b92af55bd0, type: 3}
   m_Name: Plate
   m_EditorClassIdentifier: Assembly-CSharp::Misc
-  itemID: 
-  itemName: 
-  description: 
-  itemIcon: {fileID: 0}
-  value: 0
+  itemID: Plate_b3005b43-16a5-48e3-a597-109cff7d5d0f
+  itemName: Plate
+  description: Just a regular plate.
+  itemIcon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  value: 1
   rarity: 0
   isStackable: 1
   maxStackSize: 16
-  lockItem: 0
+  lockItem: 1

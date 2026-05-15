@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2acd7eec52d34d948b203d5d9cf6e380, type: 3}
   m_Name: Steel
   m_EditorClassIdentifier: Assembly-CSharp::RefinedMaterial
-  itemID: 
-  itemName: 
-  description: 
-  itemIcon: {fileID: 0}
-  value: 0
-  rarity: 0
+  itemID: Steel_d96e62a0-266f-4ca9-9ba2-a872b43f0200
+  itemName: Steel
+  description: Made from Iron.
+  itemIcon: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  value: 35
+  rarity: 1
   isStackable: 1
   maxStackSize: 16
-  lockItem: 0
+  lockItem: 1

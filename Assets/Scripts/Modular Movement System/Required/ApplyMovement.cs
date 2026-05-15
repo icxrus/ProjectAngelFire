@@ -82,6 +82,7 @@ public class ApplyMovement : MonoBehaviour
 
                 controller.Move(Vector3.up * 0.1f);
                 jumpGracePeriod = 0.2f;
+                GetComponent<Animator>().SetTrigger("Jump");
             }
             else if (vertVelocity <= 0 && jumpGracePeriod <= 0)
             {
@@ -94,14 +95,17 @@ public class ApplyMovement : MonoBehaviour
                     vertVelocity = -1f;
                 }
             }
+            
+            //GetComponent<Animator>().SetBool("Jump", false);
         }
     }
 
     public bool GroundCheck()
     {
         float radius = controller.radius * 0.9f;
-        float dist = (controller.height * 0.5f) - radius + 0.15f;
-        Vector3 origin = transform.position;
+        Vector3 origin = transform.TransformPoint(controller.center);
+        float dist = (controller.height * 0.5f) - radius + 0.1f;
+        //Vector3 origin = transform.position;
 
         if (Physics.SphereCast(origin, radius, Vector3.down, out RaycastHit hit, dist))
         {

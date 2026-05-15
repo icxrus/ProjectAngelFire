@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e6ef2034af2daa41865b941199b6892, type: 3}
   m_Name: HealthPotion_small
   m_EditorClassIdentifier: Assembly-CSharp::Consumable
-  itemID: 
-  itemName: 
-  description: 
-  itemIcon: {fileID: 0}
-  value: 0
+  itemID: smallhealthpotion_8a60a9d7-2e50-4008-a47d-cd12cf073b7f
+  itemName: Small Health Potion
+  description: Heals a small amount
+  itemIcon: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  value: 10
   rarity: 0
   isStackable: 1
   maxStackSize: 16
-  lockItem: 0
-  healthRestoreAmount: 0
+  lockItem: 1
+  healthRestoreAmount: 50
   hungerRestoreAmount: 0

@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4d13893051d234c9781ebcb796949e, type: 3}
   m_Name: Note_Herberts_Story
   m_EditorClassIdentifier: Assembly-CSharp::Notes
-  itemID: 
-  itemName: 
+  itemID: herbertsdiary_de75cff6-e82a-4cb8-a6e1-d22bac1ab897
+  itemName: Herbert's Diary
   description: 
   itemIcon: {fileID: 0}
-  value: 0
+  value: 1
   rarity: 0
-  isStackable: 1
-  maxStackSize: 16
-  lockItem: 0
-  noteTitle: 
-  noteContent: 
+  isStackable: 0
+  maxStackSize: 1
+  lockItem: 1
+  noteTitle: Day 183
+  noteContent: I'm still stuck on the other side of the river. I ran from the hell
+    of the Dead Lands, but I can't escape the burning death. Help me.

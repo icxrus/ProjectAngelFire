@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8edb20ca8bb209d4db31dd2b1daeec32, type: 3}
   m_Name: Quest Item_dibididoo
   m_EditorClassIdentifier: Assembly-CSharp::QuestItem
-  itemID: 
-  itemName: 
-  description: 
+  itemID: dibidoo_24796792-703f-4a84-8289-53341b7e44df
+  itemName: dibidoo
+  description: dibs
   itemIcon: {fileID: 0}
-  value: 0
-  rarity: 0
-  isStackable: 1
-  maxStackSize: 16
-  lockItem: 0
-  questID: 
+  value: 1
+  rarity: 4
+  isStackable: 0
+  maxStackSize: 1
+  lockItem: 1
+  questID: 344546

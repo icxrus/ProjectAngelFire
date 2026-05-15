@@ -1,4 +1,6 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Windows;
 
 [RequireComponent(typeof(InputHandler), typeof(ApplyMovement), typeof(Animator))]
 public class BasicMovementModule : MonoBehaviour
@@ -15,9 +17,13 @@ public class BasicMovementModule : MonoBehaviour
     private Vector3 move;
     private Vector2 currentAnimationBlendVector;
     private Vector2 animationVelocity;
+    private Vector2 _input;
 
     private int speedXAnimationParameterID;
     private int speedYAnimationParameterID;
+
+
+    private Coroutine movementRoutine;
 
     private void OnEnable()
     {
@@ -26,14 +32,36 @@ public class BasicMovementModule : MonoBehaviour
         speedYAnimationParameterID = Animator.StringToHash("MoveZ");
         cameraTransform = Camera.main.transform;
 
-        GetComponent<InputHandler>().MovementTriggeredCallBack += MovePlayer;
+        GetComponent<InputHandler>().MovementTriggeredCallBack += OnMoveInput;
         Debug.Log("Subscribed movement function to Movement Triggered");
     }
 
     private void OnDisable()
     {
-        GetComponent<InputHandler>().MovementTriggeredCallBack -= MovePlayer;
+        GetComponent<InputHandler>().MovementTriggeredCallBack -= OnMoveInput;
         Debug.Log("Unsubscribed movement function to Movement Triggered");
+    }
+
+    public void OnMoveInput()
+    {
+        _input = GetComponent<InputHandler>().ReturnInputValuesForMovement();
+
+        if (_input != Vector2.zero && movementRoutine == null)
+        {
+            movementRoutine = StartCoroutine(MovementLoop());
+        }
+    }
+
+    private IEnumerator MovementLoop()
+    {
+        // Run as long as we have input OR as long as we haven't finished smoothing to zero
+        while (_input != Vector2.zero || currentAnimationBlendVector.sqrMagnitude > 0.001f)
+        {
+            MovePlayer();
+            yield return null;
+        }
+
+        movementRoutine = null;
     }
 
     private void MovePlayer()
@@ -88,10 +116,12 @@ public class BasicMovementModule : MonoBehaviour
             if (activeSpeed != 0f)
             {
                 activeMovementSpeed = activeSpeed;
+                animator.SetBool("Run", true);
             }
             else
             {
                 activeMovementSpeed = basicMovementSpeed;
+                animator.SetBool("Run", false);
             }
         }
         else if (GetComponent<CrouchingModule>() && GetComponent<InputHandler>().CrouchingActive())
@@ -100,15 +130,19 @@ public class BasicMovementModule : MonoBehaviour
             if (activeSpeed != 0f)
             {
                 activeMovementSpeed = activeSpeed;
+                animator.SetBool("Crouch", true);
             }
             else
             {
                 activeMovementSpeed = basicMovementSpeed;
+                animator.SetBool("Crouch", false);
             }
         }
         else
         {
             activeMovementSpeed = basicMovementSpeed;
+            animator.SetBool("Run", false);
+            animator.SetBool("Crouch", false);
         }
     }
 

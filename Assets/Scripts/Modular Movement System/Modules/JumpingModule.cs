@@ -35,6 +35,7 @@ public class JumpingModule : MonoBehaviour
         if (_applyMovement.GroundCheck())
         {
             _pendingJumpVelocity = Mathf.Sqrt(jumpHeight * -2.0f * gravityValue);
+            
         }
     }
 
